@@ -12,11 +12,11 @@
     </style>
 
     <style name="navTextInactive">
-        <item name="android:textSize">8sp</item>
+        <item name="android:textSize">9sp</item>
     </style>
 
     <style name="navTextActive">
-        <item name="android:textSize">8sp</item>
+        <item name="android:textSize">9sp</item>
     </style>
 
 </resources>
