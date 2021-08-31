@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        app:borderWidth="4dp"
-        android:elevation="10dp"
-        app:elevation="10dp"
-        app:backgroundTint="#FFFFFF"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/sImageView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/SmartActionImageViewShape"
+        style="@style/SmartActionImageView"
+        />
 
     <androidx.cardview.widget.CardView
         android:layout_width="25dp"
@@ -23,8 +20,8 @@
         app:cardElevation="50dp"
         app:cardCornerRadius="50dp"
         android:clickable="false"
-        app:layout_constraintTop_toTopOf="@id/fab"
-        app:layout_constraintEnd_toEndOf="@id/fab">
+        app:layout_constraintTop_toTopOf="@id/sImageView"
+        app:layout_constraintEnd_toEndOf="@id/sImageView">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

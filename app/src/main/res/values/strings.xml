@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BottomAppBarWithBadges</string>
+    <string name="title_home">Home</string>
+    <string name="title_products">Products</string>
+    <string name="title_pay">Pay N Transfer</string>
+    <string name="title_services">Services</string>
 </resources>

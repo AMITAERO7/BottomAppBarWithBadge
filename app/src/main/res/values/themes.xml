@@ -11,11 +11,32 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="navTextInactive">
+    <style name= "BottomNavigationViewStyle">
+        <item name="itemTextAppearanceActive">@style/NavigationTextActive</item>
+        <item name="itemTextAppearanceInactive">@style/NavigationTextInactive</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+    <style name="SmartActionImageView">
+        <item name="android:padding">5dp</item>
+        <item name="elevation">10dp</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="strokeColor">#1275B0</item>
+        <item name="strokeWidth">4dp</item>
+    </style>
+
+    <style name="SmartActionImageViewShape">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="NavigationTextActive">
         <item name="android:textSize">9sp</item>
     </style>
 
-    <style name="navTextActive">
+    <style name="NavigationTextInactive">
         <item name="android:textSize">9sp</item>
     </style>
 
